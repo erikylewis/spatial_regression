@@ -1,3 +1,4 @@
+
 # spatial_regression
 Stata code to do Conley standard errors in OLS and 2SLS. I am indebted to Solomon Hsiang whose Stata code is the basis for my code. http://www.fight-entropy.com/2010/06/standard-error-adjustment-ols-for.html. Unfortunately Hsiang's code appears to no longer be available on his website.
 
@@ -6,11 +7,16 @@ One innovation of this code byond Hsiang is that this code allows for an optiona
 Another innovation of this code is that it allows for 2SLS. Both OLS and 2SLS are run using the same command. The 2SLS uses the parantheses syntax that is also used in Stata's ivregress.
 
 Files include:
-sample_code.do --> shows how each of these programs is used. Demonstrates different options for spatial_reg.
-create_sample_data.do --> creates a sample (fake) dataset.
-create_distance_matrix.ado --> program that creates a distance matrix using Mata; saves as a .txt file.
-read_distance_matrix.ado --> program that reads in the .txt file and saves the distance matrix in Mata.
-spatial_reg.ado --> program that does the regression itself.
+
+(1) sample_code.do --> shows how each of these programs is used. Demonstrates different options for spatial_reg.
+
+(2) create_sample_data.do --> creates a sample (fake) dataset.
+
+(3) create_distance_matrix.ado --> program that creates a distance matrix using Mata; saves as a .txt file.
+
+(4) read_distance_matrix.ado --> program that reads in the .txt file and saves the distance matrix in Mata.
+
+(5) spatial_reg.ado --> program that does the regression itself.
 
 This method is based on Conley (1999) "GMM Estimation with Cross Sectional Dependence." Journal of Econoometrics, Vol. 92 Issue 1 (September 1999) pp. 1-45.
 
