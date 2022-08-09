@@ -22,10 +22,10 @@ This method is based on Conley (1999) "GMM Estimation with Cross Sectional Depen
 
 If you use this code, please cite 
 
-Lewis, Eric (2019) "Patchwork Policies, Spillovers, and the Search for Oil and Gas". American Economic Journal: Economic Policy. 11(1), 380-405. 
+- Lewis, Eric (2019) "Patchwork Policies, Spillovers, and the Search for Oil and Gas". _American Economic Journal: Economic Policy._ 11(1), 380-405. 
 
 This code is also used in:
 
-Brehm, Paul and Eric Lewis (2021) "Information asymmetry, trade, and drilling: evidence from an oil lease lottery." The RAND Journal of Economics. 52(3), 496-154.
+- Brehm, Paul and Eric Lewis (2021) "Information asymmetry, trade, and drilling: evidence from an oil lease lottery." _The RAND Journal of Economics._ 52(3), 496-154.
 
 Check out my other research at https://sites.google.com/site/erickylelewis
